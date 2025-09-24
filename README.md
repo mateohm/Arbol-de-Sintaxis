@@ -3,8 +3,6 @@
 ## Introducción 
 En esta actividad se desarrolló un analizador sintáctico en Python que permite leer una gramática libre de contexto desde un archivo (gra.txt) y posteriormente analizar una cadena de entrada para determinar si pertenece o no al lenguaje definido por la gramática. Además, el programa genera e imprime en pantalla el árbol de sintaxis, el cual representa de manera jerárquica cómo se construye la cadena a partir de las reglas gramaticales.
 
-El propósito principal es afianzar los conocimientos sobre el proceso de análisis sintáctico en la construcción de compiladores, abordando conceptos como gramáticas, recursión por la izquierda, conjuntos First y Follow, tablas predictivas LL(1) y la construcción de árboles de derivación.
-
 ## Desarrollo 
 
 En esta actividad se implementó en Python un analizador sintáctico que lee una gramática libre de contexto desde el archivo gra.txt y analiza cadenas de prueba para determinar si pertenecen al lenguaje definido. Además, genera un árbol de sintaxis que muestra cómo la cadena se deriva a partir de la gramática.
